@@ -1,0 +1,40 @@
+:root {
+    --color1: #0107538f;
+  }
+
+body {
+    padding-top: 56px;
+}
+/*карусель на главной странице*/
+.carousel-item img{
+    height: 600px;
+    width: 200px;
+}
+/*Раздел Почему именно мы?*/
+.whywe h5{
+    padding: 50px;
+    border:3px solid var(--color1);
+  }
+/*Раздел О нас и описание товара*/
+.aboutus, .product-description{
+    padding: 20px;
+    border:5px solid var(--color1);
+}
+.aboutus p {
+  width: 135%;
+}
+
+.color1{
+    color: var(--color1)
+  }
+
+#start-purchase-btn {
+    background-color: #23364e;
+    border-color: #23364e;
+    color: white;
+}
+
+#start-purchase-link {
+    text-decoration: none;
+    color: white;
+}
